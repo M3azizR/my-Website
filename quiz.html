@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. What does html stands for?</p>
+                <input type="radio" name="q1" value="a"> Hyper Text Makeup Language<br>
+                <input type="radio" name="q1" value="b"> Hyper Test Markup Language<br>
+                <input type="radio" name="q1" value="c"> Hyper Text Markup Language<br>
+            </div>
+            <div class="question">
+                <p>2. Which language is used for web development?</p>
+                <input type="radio" name="q2" value="a"> Java<br>
+                <input type="radio" name="q2" value="b"> HTML<br>
+                <input type="radio" name="q2" value="c"> Python<br>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="results"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
